@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data-Structure.iml" filepath="$PROJECT_DIR$/Data-Structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear Data structure/Java/Java.iml" filepath="$PROJECT_DIR$/Linear Data structure/Java/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear Data structure/Linear Data structure.iml" filepath="$PROJECT_DIR$/Linear Data structure/Linear Data structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Non_Linear Data Structure/Non_Linear Data Structure.iml" filepath="$PROJECT_DIR$/Non_Linear Data Structure/Non_Linear Data Structure.iml" />
+    </modules>
+  </component>
+</project>
