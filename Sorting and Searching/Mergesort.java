@@ -1,6 +1,6 @@
 public class Mergesort {
         public static void main(String[] args){
-            int[] arr = {13,46,24,52,20,9} ;
+            int[] arr = {13,46,24,52} ;
             int n = arr.length;
             merge_sort(arr,0,n-1);
             for (int i : arr) {
@@ -13,7 +13,7 @@ public class Mergesort {
             int j=mid+1 ;
             int k=low ;
 
-            while(i<=low && j<=high){
+            while(i<=mid && j<=high){
                 if(arr[i]<arr[j]){
                     temp[k]=arr[i];
                     i++;
@@ -38,9 +38,7 @@ public class Mergesort {
             if (high + 1 - low >= 0) System.arraycopy(temp, low, arr, low, high + 1 - low);
         }
         static void merge_sort(int[] arr, int low , int high){
-            if(low>=high)
-                return ;
-            else {
+            if(low<high){
                 int mid = (low+high)/2 ;
                 merge_sort(arr,low,mid);
                 merge_sort(arr,mid+1,high);

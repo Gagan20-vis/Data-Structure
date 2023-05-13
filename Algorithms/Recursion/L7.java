@@ -19,21 +19,15 @@ public class L7 {
     // print only one subsequence which have sum equal to k
     public static boolean printsum(int ind, ArrayList<Integer> ds, int s, int[] arr, int n, int k) {
         if (ind == n) {
-            if (s == k)
-                return true;
-            else
-                return false;
+            return s == k;
         }
         ds.add(arr[ind]);
         s += arr[ind];
-        if (printsum(ind + 1, ds, s, arr, n, k) == true)
-            return true;
+        if (printsum(ind + 1, ds, s, arr, n, k)) return true;
 
         s -= arr[ind];
         ds.remove(ds.size() - 1);
-        if (printsum(ind + 1, ds, s, arr, n, k) == true)
-            return true;
-        return false;
+        return printsum(ind + 1, ds, s, arr, n, k);
     }
 
     // print count of sum of subsequences
@@ -58,11 +52,11 @@ public class L7 {
 
     public static void main(String[] args) {
         ArrayList<Integer> ds = new ArrayList<>();
-        int[] arr = { 1, 2, 1 };
+        int[] arr = { 1, 1, 1 };
         int n = 3;
         int k = 2;
         printksum(0, ds, 0, arr, n, k);
         // System.out.println(printsum(0, ds, 0, arr, n, k));
-        // System.out.println(printcount(0, ds, 0, arr, n, k));
+         System.out.println(printcount(0, ds, 0, arr, n, k));
     }
 }
