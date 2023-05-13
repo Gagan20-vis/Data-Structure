@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Data-Structure.iml" filepath="$PROJECT_DIR$/Data-Structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear Data structure/Java/Java.iml" filepath="$PROJECT_DIR$/Linear Data structure/Java/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear Data structure/Linear Data structure.iml" filepath="$PROJECT_DIR$/Linear Data structure/Linear Data structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear Data structure/Java/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/Linear Data structure/Java/LinkedList/LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Non_Linear Data Structure/Non_Linear Data Structure.iml" filepath="$PROJECT_DIR$/Non_Linear Data Structure/Non_Linear Data Structure.iml" />
     </modules>
   </component>
